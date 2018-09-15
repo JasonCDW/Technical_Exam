@@ -37,9 +37,6 @@ function submit(event) {
      event.preventDefault();
      let newDev = new Dev(elNewDev.value, elDevSchool.value ,elDevProgLang.value);
      devArray.push(newDev);
-    //  let elDev = document.createElement('li');
-    //  elDevList.appendChild(elDev);
-    //  elDev.innerHTML = elNewDev.value;  
     let elDev = document.createElement('h3');
     elDevList.appendChild(elDev);
     elDev.innerHTML = elNewDev.value;
