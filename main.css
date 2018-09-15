@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/CHECKBK0.TTF);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(fonts/data-latin.ttf);
+    font-weight: bold;
+}
+
+body {
+    color: bisque;
+    background-image: url(images/giphy.gif);
+    background-repeat: repeat-y;
+    background-size: 100%
+}
+
+#Title1 {
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 350%;
+}
+
+#list-container {
+    text-align: center;
+}
+
+li{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.currentDevs {
+    width: 100%;
+    font-family: mySecondFont;
+    font-style: italic;
+    text-align: center;
+    list-style-position: inside;
+    -webkit-padding-start: 0px;
+}
+
+#Title2 {
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 350%;
+}
+
+#dev-form {
+    text-align: center;
+    font-family: mySecondFont;
+}
+
+#button-container {
+    width: 100%;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 125%;
+    color: white;
+    background-color: crimson;
+    position: absolute;
+    left:0;
+    right:0;
+    margin: auto;
+    margin-top: 20px;
+    width: 73.4px;
+}
+
+h4:hover{
+    transform: scale(1.2, 1.2);
+    box-shadow: 5px 5px 3px rgba(220, 20, 60, 0.61);
+}

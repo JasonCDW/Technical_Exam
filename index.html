@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Technical Exam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <h1 id = 'Title1'>Our Current Developers:</h1>
+    <div id='list-container'>
+        <ul class='currentDevs' id='dev-list'></ul>
+    </div>
+    <h1 id='Title2'>Add a New Developer:</h1>
+    <form id="dev-form">
+        <h3>New Developer's Name:</h3>
+        <input required placeholder="Developer Name" name='devName'/>
+        <h3>Coding School Attended:</h3>
+        <input required placeholder="Coding School" name='codingSchool'>
+        <h3>Programming Languages Learned:</h3>
+        <input required placeholder="Programming Languages" name='programLang'>
+        <button type = 'submit'>Submit</button>
+        <button id='resetButton' type='reset'>Reset</button>
+    </form>
+    <div id = 'button-container'>
+    <h4 id='startOverButton'>Start Over</h4>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
